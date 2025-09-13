@@ -41,17 +41,34 @@ function PortfolioContact() {
           
           <div className="mt-8">
             <h4 className="font-bold mb-4">Connect with me</h4>
-            <div className="flex space-x-4">
-              <a href="#" className="professional-btn p-3 rounded-full hover:scale-110 transition-transform">
-                <i className="fab fa-github text-xl"></i>
-              </a>
-              <a href="#" className="professional-btn p-3 rounded-full hover:scale-110 transition-transform">
-                <i className="fab fa-linkedin-in text-xl"></i>
-              </a>
-              <a href="#" className="professional-btn p-3 rounded-full hover:scale-110 transition-transform">
-                <i className="fab fa-twitter text-xl"></i>
-              </a>
-            </div>
+ <div className="flex space-x-4">
+  <a 
+    href="https://github.com/MohitAnand29" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="professional-btn p-3 rounded-full hover:scale-110 transition-transform"
+  >
+    <i className="fab fa-github text-xl"></i>
+  </a>
+  <a 
+    href="https://linkedin.com/in/your-linkedin-id" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="professional-btn p-3 rounded-full hover:scale-110 transition-transform"
+  >
+    <i className="fab fa-linkedin-in text-xl"></i>
+  </a>
+  <a 
+    href="https://twitter.com/your-twitter-id" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="professional-btn p-3 rounded-full hover:scale-110 transition-transform"
+  >
+    <i className="fab fa-twitter text-xl"></i>
+  </a>
+</div>
+
+
           </div>
         </div>
         
